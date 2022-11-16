@@ -6,7 +6,7 @@ from pygame.locals import *											# import of global variables
 
 link = "../res/sprites/characters.png" 									# link of the image of the characters
 
-class interface_graphique :
+class Screen :
 	
 	BLACK = 0, 0, 0
 	RED = 255, 0, 0
@@ -38,7 +38,7 @@ class interface_graphique :
 				if self.end(event):
 					self.running = False
 	
-			self.screen.fill(interface_graphique.BLACK)
+			self.screen.fill(Screen.BLACK)
 			for i in range(len(self.list_image)) :
 				self.screen.blit(self.list_image[i], self.list_rect[i])	
 			pg.display.update()
@@ -46,7 +46,7 @@ class interface_graphique :
 
 
 if '__main__' == __name__ :
-	ig = interface_graphique()
+	ig = Screen()
 	ig.aff(link)
 	ig.run()
 
