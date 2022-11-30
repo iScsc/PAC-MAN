@@ -6,11 +6,8 @@ class Ghost(Movable):
     
     spritesNumber = 2
     
-    
-    def __init__(self, x = 0, y = 0):
-        super.__init__(x, y)
+    def __init__(self, x = 0, y = 0, i = 0):
+        super.__init__(x, y, i, 2, Ghost.spritesNumber, 0, 2)
         self.eaten = False
-        self.current = 0
-        self.dir = 2    
     
     
