@@ -10,4 +10,3 @@ class Ghost(Movable):
         super.__init__(x, y, i, 2, Ghost.spritesNumber, 0, 2)
         self.eaten = False
     
-    
