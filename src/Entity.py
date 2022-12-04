@@ -17,5 +17,5 @@ class Entity:
         return (self.x, self.y)
     
     def getSprite(self):
-        return (self.i + self.current, self.j)
+        return (self.i, self.j + self.current)
     
