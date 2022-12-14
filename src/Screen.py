@@ -4,7 +4,7 @@ import pygame as pg
 import os 
 from pygame.locals import *											# import of global variables
 
-link = "../res/sprites/characters.png" 									# link of the image of the characters
+link = "../res/sprites/sprites.png" 									# link of the image of the characters
 
 class Screen :
 	
