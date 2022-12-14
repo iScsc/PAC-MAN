@@ -1,5 +1,3 @@
-
-
 ## Imports 
 
 import pygame as pg
@@ -11,7 +9,7 @@ from pygame.locals import *		# import of global variables
 
 
 ## Global variables
-link = "../res/sprites/characters.png" 	# link of the image of the characters
+link = "../res/sprites/sprites.png" 	# link of the image of the characters
 link_txt_map = "../res/maps/01.txt"
 
 
@@ -116,11 +114,4 @@ if '__main__' == __name__ :
 		s.display_demo(entity_list)
 		pg.display.update()
 	pg.quit()
-
-	
-
-
-
-
-
 
