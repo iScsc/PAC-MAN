@@ -10,8 +10,7 @@ from pygame.locals import *		# import of global variables
 
 ## Global variables
 link = "../res/sprites/sprites.png" 	# link of the image of the characters
-link_txt_map = "/home/tudual/Public/PAC-MAN/res/maps/01.txt"
-#"../res/maps/01.txt"
+link_txt_map = "../res/maps/01.txt"
 
 
 BLACK = 0, 0, 0
